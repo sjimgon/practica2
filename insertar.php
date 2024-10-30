@@ -1,8 +1,8 @@
 <?php
-    $servername = "sql205.infinityfree.com "; 
-    $username = "if0_37433761";
-    $password = "4RblbHXR4XzB"; //Soy consciente de que estoy poniendo una pass, es para hacer pruebas de despliegue en local para fines didácticos       
-    $dbname = "if0_37433761_prueba2"; 
+    $servername = "localhost"; 
+    $username = "ser";
+    $password = "ser"; //Soy consciente de que estoy poniendo una pass, es para hacer pruebas de despliegue en local para fines didácticos       
+    $dbname = "prueba"; 
 
     // Crear conexión con la base de datos
     $conn = new mysqli($servername, $username, $password, $dbname);

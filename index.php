@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Sergio Jiménez González</h1>
-    <h2>Mi página web en local ConectaTO Github</h2>
+    <h2>Mi página web en local</h2>
     <?php
         date_default_timezone_set('Europe/Madrid');
         echo date('H:i:s');

@@ -19,6 +19,7 @@
 
         if ($conn->query($sql) === TRUE) {
             echo "Datos insertados correctamente";
+            echo "<a href='index.php'><br>Volver al inicio</a>";
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
